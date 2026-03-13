@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem sou eu?</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/contatoStyle.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="menuTop"></div>
+    </header>
+
+    <nav id="menuLateral">
+        <div>
+            <a href="index.html"><img src="icons/profile.png" alt=""></a>
+            <p>Sobre mim</p>
+        </div>
+
+        <div>
+            <a href="formaçao.html"><img src="icons/id-card.png" alt=""></a>
+            <p>Formação</p>
+        </div>
+
+        <div>
+            <a href="portifolio.html"><img src="icons/communicate.png" alt=""></a>
+            <p>Potifólio</p>
+        </div>
+
+        <div>
+            <a href="contato.html"><img src="icons/contact.png" alt=""></a>
+            <p>Contato</p>
+        </div>
+    </nav>
+
+    <div class="corpo">
+
+        <form id="formContato" action="" method="get">
+
+            <table>
+
+                <tr>
+                    <th colspan="2" id="titulo">Gostaria de me <span class="highlightVd">contatar?</span></th>
+                </tr>
+
+                <tr>
+                    <th><label for="nome">Nome:</label></th>
+                    <td><input type="text" id="nome" size="50"></td>
+                </tr>
+
+                <tr>
+                    <th><label for="email">E-mail:</label></th>
+                    <td><input type="email" id="email"></td>
+                </tr>
+
+                <tr>
+                    <th><label for="msg">Deixe sua mensagem:</label></th>
+                    <td><textarea id="msg" cols="50" rows="10" maxlength="450"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" id="botao">
+                        <button type="submit">Enviar</button>
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </div>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

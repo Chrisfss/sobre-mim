@@ -1,0 +1,9 @@
+ul {
+    margin-left: 50px;
+}
+ul > li {
+    text-align: justify;
+    color: white;
+    font-family: Consolas, "Courier New", monospace;
+}
+

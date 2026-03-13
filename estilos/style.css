@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/***** header *****/
+
+html, body { height: 100%; }
+
+#menuLateral {
+    width: 50px;
+    height: 100vh;
+    background-color: rgb(33, 37, 43);
+    background-image: linear-gradient(to right, rgba(20, 23, 26, 0.353),rgb(35, 40, 45),rgb(47, 54, 60),rgb(54, 61, 69));
+    float: left;
+}
+#menuLateral:hover {
+    width: 65px;
+    transition: width 0.5s;
+}
+#menuTop {
+    height: 40px;
+    background-color: rgba(33, 37, 43);
+}
+nav img {
+    width: 34px;
+    height: 34px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+nav img:hover {
+    padding-left: 15px;
+    transition: width 0.5s;
+}
+nav  p {
+    display: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.37);
+   
+}
+nav a:hover + p {
+    display: block;
+}
+
+
+
+/***** body *****/
+
+.corpo{
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(40, 44, 52);
+    
+}
+h1 {
+    padding-bottom: 10px;
+    color: #bd93f9;
+}
+
+/***** Conteúdo Home *****/
+
+.conteudo {
+    width: 300px;
+    margin-left: 5%;
+}
+.highlightVd {
+    color: #50fa7b;
+}
+.conteudo p {
+    padding-bottom: 20px;
+    text-align: justify;
+    color: white;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+
+/***** Apresentação Home*****/
+
+#foto > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.circulo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 255, 0.135); 
+    border-radius: 50%;
+    display: inline-flex;
+}
+#circuloVm {
+    background-color: red;
+}
+#circuloAm {
+    background-color: yellow;
+}
+#circuloVd {
+    background-color: green;
+}
